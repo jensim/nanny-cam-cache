@@ -6,8 +6,8 @@ var cachedRequest = require('cached-request')(request);
 var cacheDirectory = __dirname +"/cache";
 var port = 8080;
 var options = {
-    url: "http://172.23.0.192/image/jpeg.cgi",
-	//url: "http://lorempixel.com/640/480/cats/",
+    //url: "http://172.23.0.192/image/jpeg.cgi",
+	url: "http://lorempixel.com/640/480/cats/",
     ttl: 1000 //1 seconds
   };
 cachedRequest.setCacheDirectory(cacheDirectory);
