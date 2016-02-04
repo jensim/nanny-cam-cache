@@ -1,8 +1,12 @@
-install
+# install
 
-npm install
-npm install -g forever
+```sh
+$ npm install
+$ npm install -g forever
+```
 
-run
+# run
 
-forever start server.js
+```sh
+$ forever start server.js
+```
