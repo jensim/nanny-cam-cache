@@ -1,0 +1,8 @@
+{
+  "name": "nanny-cam-cache",
+  "dependencies": {
+    "cached-request": "^0.1.4",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  }
+}
